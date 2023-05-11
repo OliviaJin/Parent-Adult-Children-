@@ -255,10 +255,10 @@ function displayResults(personality) {
 		case 0:	//type1 code
 			results.style.display = "flex";
 			//results.classList.add("Bamboo");
-			printResult.innerText = "Alienated Family";
+			printResult.innerText = " Bounded Family";
 			//printDescription.innerText = "Purple Bamboo, or";
 			//printBotanical.innerText =  "Phyllostachys nigra";
-			printDescription2.innerText = "You filling much more relief after moving into an enviironment that s far away from home. But you still have a hope towardsimporving the boundariies between parents."
+			printDescription2.innerText = "You do not reject the current mode of communication, but would like to have closer contact with parents."
 			printLines.innerText = result;
 			resultPlural.innerText = "You did it!";
 			break;
@@ -266,10 +266,10 @@ function displayResults(personality) {
 		case 1:		//type2
 			results.style.display = "flex";
 			//results.classList.add("Orchid");
-			printResult.innerText = "Bounded Family";
+			printResult.innerText = " Alienated Family";
 			//printDescription.innerText = "The Moon Orchid, or";
 			//printBotanical.innerText =  "Phalaenopsis amabilis";
-			printDescription2.innerText = "You do not reject the current mode of communication, but would like to have closer contact with parents."
+			printDescription2.innerText = "You filling much more relief after moving into an enviironment that s far away from home. But you still have a hope towardsimporving the boundariies between parents. "
 			printLines.innerText = result;
 			resultPlural.innerText = "You did it!";
 			break;
