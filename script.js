@@ -260,7 +260,7 @@ function displayResults(personality) {
 			//printBotanical.innerText =  "Phyllostachys nigra";
 			printDescription2.innerText = "You filling much more relief after moving into an enviironment that s far away from home. But you still have a hope towardsimporving the boundariies between parents."
 			printLines.innerText = result;
-			resultPlural.innerText = "Good Luck!";
+			resultPlural.innerText = "You did it!";
 			break;
 
 		case 1:		//type2
@@ -271,74 +271,9 @@ function displayResults(personality) {
 			//printBotanical.innerText =  "Phalaenopsis amabilis";
 			printDescription2.innerText = "You do not reject the current mode of communication, but would like to have closer contact with parents."
 			printLines.innerText = result;
-			resultPlural.innerText = "Good Luck!";
+			resultPlural.innerText = "You did it!";
 			break;
 
-		case 2:		//type3
-			results.style.display = "flex";
-			//results.classList.add("Ficus");
-			printResult.innerText = "The Maximizer";
-			//printDescription.innerText = "The Rubber Fig, or";
-			//printBotanical.innerText =  "Ficus elastica";
-			printDescription2.innerText = "You have unrealistic expectations of a partner and are always looking for better opportunities. You like going clubbing and are just looking for something casual."
-			printLines.innerText = result;
-			resultPlural.innerText = "Good Luck!";
-			break;
-
-		/*case 3:		//type4
-			results.style.display = "flex";
-			//results.classList.add("Wakame");
-			printResult.innerText = "The Hesitator";
-			//printDescription.innerText = "Wakame, or";
-			//printBotanical.innerText =  "Undaria pinnatifida";
-			printDescription2.innerText = "You have low self-confidence and never feel ready to date or start a relationship. You like quiet cafes and really love personal alone-time."
-			printLines.innerText = result;
-			resultPlural.innerText = "Good Luck!";
-			break;
-
-		case 4:		//type5
-			results.style.display = "flex";
-			//results.classList.add("Sakura");
-			printResult.innerText = " The Nurturer/Protector";
-			//printDescription.innerText = "The Japanese Cherry Tree, or";
-			//printBotanical.innerText =  "Prunus serrulata";
-			printDescription2.innerText = "You always end up dating dependent and needy people. You like givin people gifts and just want the comfort of their company so you end up buying them with money."
-			printLines.innerText = result;
-			resultPlural.innerText = "Good Luck!";
-			break;
-
-		case 5:		//type6
-			results.style.display = "flex";
-			//results.classList.add("Hydrangea");
-			printResult.innerText = "The Charmer.";
-			//printDescription.innerText = "The Big-Leaf Hydrangea, or";
-			//printBotanical.innerText =  "Hydrangea macrophylla";
-			printDescription2.innerText = "You dates many people for short periods and are against monogamy. You like going clubbing and are just looking for something casual."
-			printLines.innerText = result;
-			resultPlural.innerText = "Good Luck!";
-			break;
-
-		case 6:		//type7
-			results.style.display = "flex";
-			//esults.classList.add("lotus");
-			printResult.innerText = "The Martyr";
-			//printDescription.innerText = "The Lotus, or";
-			//printBotanical.innerText =  "Nelumbo nucifera";
-			printDescription2.innerText = "You cannot say no to a new relationship and date people that choose you. You like going for walks and love spending quality time! Your favourite food is Italian!l"
-			printLines.innerText = result;
-			resultPlural.innerText = "Good Luck!";
-			break;
-
-		case 7:		//type8
-			results.style.display = "flex";
-			//results.classList.add("gingko");
-			printResult.innerText = "The Balanced!";
-			//printDescription.innerText = "The Gingko Tree, or";
-			//printBotanical.innerText =  "Ginkgo biloba";
-			printDescription2.innerText = "."
-			printLines.innerText = result;
-			resultPlural.innerText = "Gingko Trees";
-			break;*/
 
 
 		default:
